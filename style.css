@@ -85,7 +85,11 @@ img {
     padding: 30px;
     border-radius: 10px;
 }
-
+@media (max-width: 768px) {
+    .hero-overlay h1 {
+        font-size: 2rem;
+    }
+}
 /* Layout */
 .container {
     width: 90%;
@@ -279,6 +283,14 @@ tbody tr:nth-child(even) {
     transform: translateY(-2px);
     transition: 0.3s;
 }
+@media (max-width: 768px) {
+    .club-page {
+        width: 95%;
+    }
+    table {
+        font-size: 0.9rem;
+    }
+}
 /* Audio */
 .audio-list {
     display: grid;
@@ -436,4 +448,5 @@ video {
 .facts-list li {
     margin-bottom: 10px;
     font-size: 0.95rem;
+
 }
